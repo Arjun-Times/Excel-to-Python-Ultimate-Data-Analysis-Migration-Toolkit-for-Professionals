@@ -41,15 +41,15 @@ pip install pandas numpy matplotlib seaborn
 ' Open file in Excel
 ' Manual data import
 
-Python Equivalent
+###Python Equivalent
 
-import pandas as pd
+```import pandas as pd```
 
-# Reading Excel files
-df = pd.read\_excel('data.xlsx')
+### Reading Excel files
+'''df = pd.read\_excel('data.xlsx')'''
 
-# Reading CSV files
-df = pd.read\_csv('data.csv')
+### Reading CSV files
+'''df = pd.read\_csv('data.csv')'''
 
-# Reading specific sheets
-df = pd.read\_excel('data.xlsx', sheet\_name='Sheet1')
+### Reading specific sheets
+'''df = pd.read\_excel('data.xlsx', sheet\_name='Sheet1')'''
