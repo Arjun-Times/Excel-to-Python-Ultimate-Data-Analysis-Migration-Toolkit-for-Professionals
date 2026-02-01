@@ -24,8 +24,8 @@ The goal is to provide a structured, practical approach to:
 8. [Common Challenges](#8-common-challenges)
 9. [Advanced Techniques](#9-advanced-techniques)
 
-##🚀 Getting Started
-###Prerequisites
+## 🚀 Getting Started
+### Prerequisites
 Python 3.8+
 pandas
 numpy
@@ -41,15 +41,15 @@ pip install pandas numpy matplotlib seaborn
 ' Open file in Excel
 ' Manual data import
 
-###Python Equivalent
+### Python Equivalent
 
 ```import pandas as pd```
 
-### Reading Excel files
-'''df = pd.read\_excel('data.xlsx')'''
+\` Reading Excel files
+df = pd.read\_excel(`data.xlsx`)
 
-### Reading CSV files
-'''df = pd.read\_csv('data.csv')'''
+\` Reading CSV files
+df = pd.read\_csv(`data.csv`)
 
-### Reading specific sheets
-'''df = pd.read\_excel('data.xlsx', sheet\_name='Sheet1')'''
+\` Reading specific sheets
+df = pd.read\_excel(`data.xlsx`, sheet\_name=`Sheet1`)
